@@ -21,9 +21,9 @@ public class Main {
 	    // main-Methode
 	   
 	        // Erzeugung eines neuen Dialoges
-	        JDialog meinJDialog = new JDialog();
-	        meinJDialog.setTitle("JPanel Beispiel");
-	        meinJDialog.setSize(450,300);
+	        JDialog dialog = new JDialog();
+	        dialog.setTitle("JPanel Beispiel");
+	        dialog.setSize(450,300);
 
 	        // Hier erzeugen wir unsere JPanels
 	        JPanel einnahme = new JPanel();
@@ -46,9 +46,9 @@ public class Main {
 	        tabpane.addTab("Sonstiges", sonstiges);
 	 
 	        // JTabbedPane wird unserem Dialog hinzugefügt
-	        meinJDialog.add(tabpane);
+	        dialog.add(tabpane);
 	        // Wir lassen unseren Dialog anzeigen
-	        meinJDialog.setVisible(true);
+	        dialog.setVisible(true);
 		
 	}
 
